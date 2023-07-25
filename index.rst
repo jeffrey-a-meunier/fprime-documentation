@@ -7,7 +7,7 @@ Each tutorial builds on the tutorials that precede it.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Tutorial sequence:
 
    tutorials/system-setup/index
    tutorials/components/index
@@ -18,7 +18,13 @@ Each tutorial builds on the tutorials that precede it.
    tutorials/ports/index
    tutorials/telemetry/index
    tutorials/unit-tests/index
-   tutorials/esp32/index
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: How-to:
+
+   how-to/esp32/index
 
 .. toctree::
    :maxdepth: 1

@@ -1,5 +1,5 @@
-F' Tutorial: Parameters
-=======================
+Tutorial: Parameters
+====================
 
 A **parameter** in F' is a non-volatile global value that can be modified through a command from the GDS.
 

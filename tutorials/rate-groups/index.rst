@@ -1,5 +1,5 @@
-F' Tutorial: Rate groups
-========================
+Tutorial: Rate groups
+=====================
 
 Use this to show telemetry.
 
