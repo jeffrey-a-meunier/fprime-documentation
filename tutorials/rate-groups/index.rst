@@ -12,3 +12,14 @@ Rate group membership example:
 https://github.com/nasa/fprime/blob/ddcb2ec138645da34cd4c67f250b67ee8bc67b26/Ref/Top/topology.fpp#L97-L124
 
 Where is a rate group defined? I mean the rate group's rate? How do you know what a rate group's rate is?
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+   :numbered:
+
+   existing-project
+   add-parameters-and-event
+   edit-commands
+   build-deployment
+   run-gds
