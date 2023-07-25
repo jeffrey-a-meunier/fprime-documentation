@@ -22,6 +22,7 @@ Each tutorial builds on the tutorials that precede it.
    notes/modify-fpp
    troubleshooting/commands-not-available
    troubleshooting/no-declaration-matches
+   troubleshooting/how-and-why-to-purge
 
 Indices and tables
 ==================

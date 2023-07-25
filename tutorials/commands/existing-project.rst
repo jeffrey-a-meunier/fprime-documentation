@@ -1,7 +1,7 @@
 Start with the Spacecraft project
 =================================
 
-This project extends the ``Spacecraft`` project by adding a component to it.
+This project extends the ``Spacecraft`` project by adding new commands to the ``Thruster`` component.
 You must complete that project now if you have not done so already
 
 Project directory
