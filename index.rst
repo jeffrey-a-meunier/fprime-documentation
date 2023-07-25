@@ -14,15 +14,26 @@ Each tutorial builds on the tutorials that precede it.
    tutorials/commands/index
    tutorials/events/index
    tutorials/parameters/index
+   tutorials/rate-groups/index
    tutorials/ports/index
-   tutorials/rate-group/index
    tutorials/telemetry/index
    tutorials/unit-tests/index
    tutorials/esp32/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Notes:
+
    notes/modify-fpp
+   notes/how-and-why-to-purge
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Troubleshooting:
+
    troubleshooting/commands-not-available
    troubleshooting/no-declaration-matches
-   troubleshooting/how-and-why-to-purge
+
 
 Indices and tables
 ==================

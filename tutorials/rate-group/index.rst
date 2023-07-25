@@ -1,2 +1,0 @@
-F' Tutorial: Rate group
-=======================
