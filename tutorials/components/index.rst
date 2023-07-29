@@ -21,3 +21,4 @@ In subsequent tutorials you'll see how the component can send *events* and *tele
    modify-topology
    build-deployment
    run-gds
+   summary

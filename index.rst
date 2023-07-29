@@ -14,8 +14,8 @@ Each tutorial builds on the tutorials that precede it.
    tutorials/commands/index
    tutorials/events/index
    tutorials/parameters/index
-   tutorials/rate-groups/index
    tutorials/ports/index
+   tutorials/rate-groups/index
    tutorials/telemetry/index
    tutorials/unit-tests/index
 
@@ -24,7 +24,8 @@ Each tutorial builds on the tutorials that precede it.
    :maxdepth: 1
    :caption: How-to:
 
-   how-to/esp32/index
+   how-to/esp8266-32/index
+   how-to/raspi/index
 
 .. toctree::
    :maxdepth: 1
@@ -39,7 +40,14 @@ Each tutorial builds on the tutorials that precede it.
 
    troubleshooting/commands-not-available
    troubleshooting/no-declaration-matches
+   troubleshooting/fprime-fpp-is-not-installed
+   troubleshooting/undefined-symbol-components
 
+.. toctree::
+   :maxdepth: 1
+   :caption: To do:
+
+   to-do/c-version-of-namemapper
 
 Indices and tables
 ==================

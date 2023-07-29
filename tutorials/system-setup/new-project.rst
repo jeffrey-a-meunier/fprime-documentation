@@ -172,15 +172,6 @@ Your terminal prompt should change to indicate that you are now working in a Pyt
 
 You must remember to activate the virtual environment any time you are working with this project.
 
-Fix a package warning
----------------------
-Uninstalling and re-installing the cheetah3 package in your virtual environment fixes a warning message that you would otherwise see.
-
-.. code-block:: bash
-
-   pip uninstall cheetah3
-   pip install cheetah3
-
 Building the project
 --------------------
 The next step is to set up and build the newly created project.

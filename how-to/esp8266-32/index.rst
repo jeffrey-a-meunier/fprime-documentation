@@ -1,5 +1,5 @@
-How-to: ESP32
-=============
+How-to: Deploy to ESP8266 / ESP32
+=================================
 
 This how-to shows you how to build an F' deployment that runs on an ESP32 microcontroller.
 

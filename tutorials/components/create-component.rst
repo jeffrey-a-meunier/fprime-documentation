@@ -1,46 +1,20 @@
 Create a new component
 ======================
-
-TODO
-----
-Fix these warnings:
-
-* ``You don't have the C version of NameMapper installed! I'm disabling Cheetah's useStackFrames option as it is painfully slow with the Python version of NameMapper. You should get a copy of Cheetah with compiled C version of NameMapper.``
-* ``[WARNING] clang-format not found in PATH. Skipping formatting.``
-
-Does this fix it?
+Make sure you're in the ``Spacecraft`` project directory and you've activated the Python virtual environment.
 
 .. code-block:: bash
 
-    pip uninstall cheetah3
-    pip install cheetah3
-
-Or:
-
-> There's a local installation of Cheetah, that comes with Skeletonz.
-In order to make that warning go away, and make NameMapper useful,
-just copy the _namemapper.py and _namemapper.so from the Cheetah
-installation to amilib/Cheetah and the message will go away. If you
-don't have those files, then you should probably go "easy_install"
-Cheetah, as that will set everything up, correctly, for you.
+    cd ~/workspace/Spacecraft
+    source venv/bin/activate
 
 Make a component directory
 --------------------------
-
-For any F' project you must create a directory in which you place all your components.
-By default, ``fprime-util`` does not create a component directory when you create a new project.
-It's easy enough to create the directory:
+For any F' project you must create a directory in which you place all your components,
+then change into that directory.
 
 .. code-block:: bash
 
     mkdir Components
-
-Be mindful of capitalization!
-
-Then enter that directory:
-
-.. code-block:: bash
-
     cd Components
 
 Create a new component

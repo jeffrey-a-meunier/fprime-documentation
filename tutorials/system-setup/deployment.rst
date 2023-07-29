@@ -26,6 +26,7 @@ To create a deployment, run the following commands in the ``Spacecraft`` directo
 
 .. code-block:: bash
 
+    cd ~/workspace/Spacecraft
     fprime-util new --deployment
 
 This command will ask for some input. Respond with the following answers:
@@ -50,6 +51,7 @@ Change into the ``SpacecraftDeployment`` directory and enter this command:
 
 .. code-block:: bash
 
+    cd SpacecraftDeployment
     fprime-util generate
 
 You should see these lines in the output:

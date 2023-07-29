@@ -5,6 +5,34 @@ In this section you will add new parameters to the ``Thruster`` component.
 We'll use these parameters to determine if a power level warning should be issued.
 A new event will be used when the warning is issued.
 
+The first parameter will indicate whether or not the warning message will be shown.
+We have several options for the type of this parameter.
+On the one hand we could use just a simple ``bool`` value, but on the other hand F' has a few enumerated types that convey a little more information than just ``true`` or ``false``.
+
+If you look at the file ``fprime/Fw/Types/Types.fpp`` you will see these two enumerated types:
+
+.. code-block:: text
+
+  @ Enabled and disabled states
+  enum Enabled {
+    DISABLED @< Disabled state
+    ENABLED @< Enabled state
+  }
+
+  @ On and off states
+  enum On {
+    OFF @< Off state
+    ON @< On state
+  }
+
+I think the words ``ENABLED`` and ``DISABLED`` best describe the state of the warning message, so I'll choose to use the ``Enabled`` enumerated type.
+
+.. important::
+
+    Note to self:
+    I used the ``On`` enumerated type before I knew the ``Enabled`` type existed.
+    Change the type in the rest of this document, and in subsequent tutorials.
+
 Replace the example parameter
 -----------------------------
 Edit the ``Thruster.fpp`` file in the ``Components/Thruster`` directory.
@@ -20,8 +48,9 @@ Replace it with these parameters:
 
 .. code-block:: text
 
-    @ Parameter to switch power level warning on or off
-    param ShowPowerLevelHiWarn: Fw.On default Fw.On.OFF
+    @ Parameter to enable or disable the power level warning
+    param ShowPowerLevelHiWarn: Fw.Enabled default Fw.Enabled.DISABLED
+
     @ Parameter to indicate the level at which to issue the power level warning
     param PowerLevelHiWarnPercent: U8 default 100
 

@@ -17,3 +17,4 @@ Here you'll create a new project called ``Spacecraft`` that will be used through
    new-project
    deployment
    run-gds
+   summary

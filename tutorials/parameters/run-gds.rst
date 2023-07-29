@@ -7,13 +7,13 @@ Execute one of these two commands, depending on your development environment (se
 
 Either:
 
-.. code-block:: bash
+.. code-block:: text
 
     fprime-gds
 
 or:
 
-.. code-block:: bash
+.. code-block:: text
 
     fprime-gds --gui-addr 0.0.0.0
 
