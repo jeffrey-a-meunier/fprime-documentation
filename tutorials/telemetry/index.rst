@@ -1,5 +1,5 @@
-Tutorial: Telemetry
-===================
+Tutorial 9: Telemetry
+=====================
 
 .. toctree::
    :maxdepth: 1

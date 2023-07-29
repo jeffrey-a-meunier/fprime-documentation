@@ -1,5 +1,6 @@
-Tutorial: Components
-====================
+Tutorial 2: Components
+======================
+
 This tutorial is designed to introduce you to *components* in F'.
 Each F' project consists of one or more interacting components.
 

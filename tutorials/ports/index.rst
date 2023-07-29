@@ -1,5 +1,6 @@
-Tutorial: Ports
-===============
+Tutorial 6: Ports
+=================
+
 An F' deployment typically consists of several component instantiations running at the same time.
 Components communicate with each other through **ports**.
 
@@ -23,8 +24,8 @@ it will send message over a port to the **Thruster** component with the correct 
    create-thruster-controller
    add-ports
    modify-topology
+   send-and-retrieve
 
-#   sending-and-retrieving-values
 #   edit-commands
 #   build-deployment
 #   run-gds

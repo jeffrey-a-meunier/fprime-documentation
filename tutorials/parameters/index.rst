@@ -1,5 +1,5 @@
-Tutorial: Parameters
-====================
+Tutorial 5: Parameters
+======================
 
 A **parameter** in F' is a non-volatile global value that can be modified through a command from the GDS.
 The main benefit of using a parameter is that the parameter's value can be stored in a database on the spacecraft.

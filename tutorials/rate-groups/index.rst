@@ -1,5 +1,5 @@
-Tutorial: Rate groups
-=====================
+Tutorial 7: Rate groups
+=======================
 
 This tutorial uses a rate group handler to send telemetry to the GDS.
 

@@ -1,5 +1,6 @@
-Tutorial: Events
-================
+Tutorial 4: Events
+==================
+
 This tutorial is designed to introduce you to events in F'.
 Recall that a *command* is how a user on the ground communicates with a running F' application.
 An *event* is how a running F' application communicates information back to the ground.

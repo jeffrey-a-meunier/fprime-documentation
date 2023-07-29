@@ -1,4 +1,4 @@
-Tutorial: System setup
+Tutorial 1: System setup
 ========================
 This tutorial is designed to help you get your system set up for developing F' applications.
 It ensures that you have all the utilities and tools installed and that you can create and build an F' project,

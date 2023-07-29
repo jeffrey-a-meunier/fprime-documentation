@@ -1,5 +1,5 @@
-Tutorial: Commands
-==================
+Tutorial 3: Commands
+====================
 
 In F', a *command* is issued by the GDS (ground data system) and is handled by a specific component in a running deployment.
 
