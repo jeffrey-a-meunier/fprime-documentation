@@ -7,7 +7,7 @@ The event will be created in the next section, along with several other events.
 
 Modify the ``.fpp`` file
 ------------------------
-Start a text editor and edit the ``Thruster.fpp`` file in the Components/Thruster directory.
+Start a text editor and edit the ``Thruster.fpp`` file in the ``Components/Thruster`` directory.
 
 Add this command to the ``Thruster.fpp`` file.
 

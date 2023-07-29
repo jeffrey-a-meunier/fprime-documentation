@@ -18,3 +18,4 @@ In this tutorial you'll create some events and then use those events in each of 
    edit-commands
    build-deployment
    run-gds
+   summary
