@@ -1,7 +1,8 @@
 Troubleshooting: ``[WARNING] fprime-fpp is not installed``
 ==========================================================
 
-If you see this message
+Problem
+-------
 
 .. code-block:: text
 
@@ -11,7 +12,9 @@ If you see this message
     [WARNING] fprime-tools has unexpected version. Expected: 3.2.0 found 3.2.1
     [WARNING] fprime-gds is not installed
 
-then you probably forgot to source the Python virtual environment.
+Solution
+--------
+You probably forgot to source the Python virtual environment.
 
 .. code-block:: bash
 

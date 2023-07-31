@@ -1,5 +1,5 @@
-To do: You don't have the C version of NameMapper installed!
-============================================================
+You don't have the C version of NameMapper installed!
+=====================================================
 
 When building a deployment, this error message is displayed:
 

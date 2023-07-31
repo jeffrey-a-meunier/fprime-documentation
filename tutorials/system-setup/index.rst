@@ -7,9 +7,9 @@ and that you can run the F' GDS (ground data system) server, and then view the G
 Here you'll create a new project called ``Spacecraft`` that will be used throughout the subsequent tutorials.
 
 .. toctree::
+   :numbered:
    :maxdepth: 1
    :caption: Contents:
-   :numbered:
 
    terminology
    virtual-machine

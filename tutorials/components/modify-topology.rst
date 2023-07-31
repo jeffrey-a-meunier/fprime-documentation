@@ -42,7 +42,7 @@ Remember that the ``Thruster`` component was defined in the ``Components`` names
         @ Spacecraft thruster.
         active component Thruster {
 
-Ensure that the base id (0x0F00) does not conflict with any other base ids in the topology.
+Ensure that the base id (0x0F00) does not conflict with any other base IDs in the topology.
 
 Add the instance to the topology
 --------------------------------

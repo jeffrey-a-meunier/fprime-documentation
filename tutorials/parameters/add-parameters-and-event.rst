@@ -31,7 +31,7 @@ I think the words ``ENABLED`` and ``DISABLED`` best describe the state of the wa
 
     Note to self:
     I used the ``On`` enumerated type before I knew the ``Enabled`` type existed.
-    Change the type in the rest of this document, and in subsequent tutorials.
+    Be sure I've chanted the type in the rest of this document, and in subsequent tutorials.
 
 Replace the example parameter
 -----------------------------
@@ -60,6 +60,7 @@ That means that even if it were switched on, the power level warning wouldn't be
 
 Add a new event
 ---------------
+Add this new event to the ``Thruster.fpp`` file.
 This is the event that will be issued to the GDS if we detect that the power level is set to a value above the hi-warn limit.
 
 .. code-block:: text

@@ -42,14 +42,15 @@ The How-to documents are self-contained instructions on how to do a specific thi
 
    troubleshooting/commands-not-available
    troubleshooting/no-declaration-matches
-   troubleshooting/fprime-fpp-is-not-installed
    troubleshooting/undefined-symbol-components
+   troubleshooting/fprime-fpp-is-not-installed
+   troubleshooting/cmake-error-fpp-tools-not-found
 
 .. toctree::
    :maxdepth: 1
    :caption: To do:
 
-   to-do/c-version-of-namemapper
+   to-do/index
 
 Indices and tables
 ==================

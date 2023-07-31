@@ -6,11 +6,19 @@ Components communicate with each other through **ports**.
 
 In this tutorial you'll create a **ThrusterController** component that will allow the GDS to set the thruster to one of 5 pre-define levels:
 
-* OFF = 0%
-* LOW = 25%
-* MED = 50%
-* HI = 75%
-* MAX = 100%
++------+-------+
+| Name | Value |
++======+=======+
+| OFF  | 0%    |
++------+-------+
+| LOW  | 25%   |
++------+-------+
+| MED  | 50%   |
++------+-------+
+| HI   | 75%   |
++------+-------+
+| MAX  | 100%  |
++------+-------+
 
 When the **ThrusterController** component receives a power level command of either **OFF**, **LOW**, **MED**, **HI**, or **MAX**,
 it will send message over a port to the **Thruster** component with the correct percent power level setting.
@@ -22,10 +30,13 @@ it will send message over a port to the **Thruster** component with the correct 
 
    existing-project
    create-thruster-controller
-   add-ports
+   add-thruster-input-port
+   add-thruster-controller-output-port
+   add-presets-command-event
+   copy-template-definitions
+   write-to-output-port
+   create-thruster-controller-instance
    modify-topology
-   send-and-retrieve
-
-#   edit-commands
-#   build-deployment
-#   run-gds
+   build-deployment
+   run-gds
+   summary
