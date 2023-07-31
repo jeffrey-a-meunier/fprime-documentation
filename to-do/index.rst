@@ -7,3 +7,4 @@ To-do
 
    c-version-of-namemapper
    enabled-disabled
+   thruster-controller-power-level-set

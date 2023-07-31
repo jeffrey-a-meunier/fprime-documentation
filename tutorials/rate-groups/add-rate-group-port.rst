@@ -1,17 +1,28 @@
 Add a rate-group port
 =====================
 
-Uncomment the ``Svc.Sched`` input port and change its type to ``async``
+Edit the ``ThrusterComponent.fpp`` file.
+Uncomment the ``Svc.Sched`` input port (but not the comment above it) and change its type to ``async``
 
 Before
+
+.. code-block:: text
 
     # @ Example port: receiving calls from the rate group
     # sync input port run: Svc.Sched
 
 After
 
+.. code-block:: text
+
     # @ Example port: receiving calls from the rate group
     async input port run: Svc.Sched
+
+Then execute this in the ``ThrusterController`` directory in order to generate the proper function handler for the ``run`` port.
+
+.. code-block:: bash
+
+  fprime-util impl
 
 Modify ``Thruster.hpp``
 -----------------------
@@ -29,6 +40,7 @@ This is the ``run_handler`` declaration in the ``Thruster.hpp-template`` file.
     );
 
 Copy that declaration and paste it into the ``Thruster.hpp`` file.
+You can copy it from this web page or from the template file. They are both the same.
 
 Modify ``Thruster.cpp``
 -----------------------
@@ -46,8 +58,6 @@ This is the ``run_handler`` definition in the ``Thruster.cpp-template`` file.
   }
 
 Copy that definition and paste it into the ``Thruster.cpp`` file.
-Replace the ``// TODO`` commend with this call to the telemetry function:
+You can copy it from this web page or from the template file. They are both the same.
 
-.. code-block:: c++
-
-    this->tlmWrite_ExampleCounter(0); 
+In the next section you'll fill in the body of the ``run_handler`` function.

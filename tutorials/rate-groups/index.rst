@@ -1,21 +1,29 @@
 Tutorial 7: Rate groups
 =======================
 
-This tutorial uses a rate group handler to send telemetry to the GDS.
+In this tutorial you'll modify the TelemetryController so that when it changes the Thruster's power level,
+it does it in increments of 10% once per second.
+This allows us to change the power level of the thruster gradually from the existing level to the target leve.
 
-The next tutorial will introduce ports, and use a rate group to send port messages between components.
+Changing the power level from OFF (0%) to MED (50%) would show a sequence of events like this:
 
-https://nasa.github.io/fprime/UsersGuide/best/rate-group.html
++--------------+------------------------+----------------+---------------------------------+
+| Event Time   | Event Name             | Event Severity | Event Description               |
++==============+========================+================+=================================+
+| 16:17:53.750 | thruster.PowerLevelSet | ACTIVITY_HI    | Thruster power level set to 10% |
++--------------+------------------------+----------------+---------------------------------+
+| 16:17:54.750 | thruster.PowerLevelSet | ACTIVITY_HI    | Thruster power level set to 20% |
++--------------+------------------------+----------------+---------------------------------+
+| 16:17:55.751 | thruster.PowerLevelSet | ACTIVITY_HI    | Thruster power level set to 30% |
++--------------+------------------------+----------------+---------------------------------+
+| 16:17:56.751 | thruster.PowerLevelSet | ACTIVITY_HI    | Thruster power level set to 40% |
++--------------+------------------------+----------------+---------------------------------+
+| 16:17:57.751 | thruster.PowerLevelSet | ACTIVITY_HI    | Thruster power level set to 50% |
++--------------+------------------------+----------------+---------------------------------+
 
-Rate group membership example:
-
-https://github.com/nasa/fprime/blob/ddcb2ec138645da34cd4c67f250b67ee8bc67b26/Ref/Top/topology.fpp#L97-L124
-
-.. note::
-
-   Where is a rate group defined? I mean the rate group's rate? How do you know what a rate group's rate is?
-
-   * It's in a component called RateGroup.
+In order to do this, we'll use a *rate group*.
+By connecting the ThrusterController to a 1Hz (1 cycle per second) rate group, we can have the rate group call a function in our component once per second.
+This function will increment or decrement the thrust level by 10% until it reaches the target value.
 
 .. toctree::
    :maxdepth: 1
@@ -23,9 +31,9 @@ https://github.com/nasa/fprime/blob/ddcb2ec138645da34cd4c67f250b67ee8bc67b26/Ref
    :numbered:
 
    existing-project
-   add-telemetry
    add-rate-group-port
    edit-commands
+   edit-run-handler
    edit-topology
    build-deployment
    run-gds
