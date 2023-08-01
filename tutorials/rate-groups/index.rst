@@ -1,7 +1,7 @@
 Tutorial 7: Rate groups
 =======================
 
-In this tutorial you'll modify the TelemetryController so that when it changes the Thruster's power level,
+In this tutorial you'll modify the ThrusterController so that when it changes the Thruster's power level,
 it does it in increments of 10% once per second.
 This allows us to change the power level of the thruster gradually from the existing level to the target leve.
 
@@ -32,8 +32,8 @@ This function will increment or decrement the thrust level by 10% until it reach
 
    existing-project
    add-rate-group-port
-   edit-commands
    edit-run-handler
    edit-topology
    build-deployment
    run-gds
+   summary

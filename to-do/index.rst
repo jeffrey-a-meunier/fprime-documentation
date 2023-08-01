@@ -13,5 +13,4 @@ These are action items for the tutorial sequence.
    proper-fpp-coments
    member-variable-names
    power-level-thrust-level
-   rate-group-summary
    async-vs-sync

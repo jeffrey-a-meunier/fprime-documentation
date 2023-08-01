@@ -32,7 +32,7 @@ If you scroll up higer in that file you will see this section:
 
 .. code-block:: text
 
-        connections RateGroups {
+    connections RateGroups {
       # Block driver
       blockDrv.CycleOut -> rateGroupDriver.CycleIn
 
