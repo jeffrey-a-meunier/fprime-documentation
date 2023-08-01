@@ -37,3 +37,4 @@ We'll use the rate group handler function in both components to send the telemet
    send-thruster-controller-telemetry
    add-telemetry-channel-packet
    run-gds
+   summary
