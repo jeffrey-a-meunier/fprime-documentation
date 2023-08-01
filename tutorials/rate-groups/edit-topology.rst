@@ -9,7 +9,7 @@ Add it to the rate group
 Edit the ``SpacecraftDeployment/Top/topology.fpp`` file.
 
 Scroll to the bottom to find the ``connections SpacecraftDeployment`` section,
-and add a connection from the rate group to the thruster controller.
+and add a connection from the rate group to the ``thrusterController.run`` port.
 
 .. code-block:: text
 

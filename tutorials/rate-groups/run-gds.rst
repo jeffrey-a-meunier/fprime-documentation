@@ -66,7 +66,7 @@ If you switch quickly to the Events tab and scroll down, you can see the ``thrus
 | 19:56:32.770 | 0xf03    | thruster.PowerLevelSet    | ACTIVITY_HI    | Thruster power level set to 100%                |
 +--------------+----------+---------------------------+----------------+-------------------------------------------------+
 
-Set the power level back to OFF and observe that the gradual power level change also goes downward.
+Set the power level back to OFF and observe that the gradual power level change also goes downward to 90% all the way back to 0%.
 
 Conclusion
 ----------

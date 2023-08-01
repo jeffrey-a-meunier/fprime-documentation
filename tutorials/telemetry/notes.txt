@@ -1,0 +1,36 @@
+Thruster.hpp
+
+    @ Target power level percent
+    telemetry PowerStatus: Fw.On
+
+    @ Actual power level percent
+    telemetry PowerLevelPercent: U8
+
+Make sure that the run port is un-commented, and that the port is ``async`` and not ``sync``:
+
+    @ Example port: receiving calls from the rate group
+    async input port run: Svc.Sched
+
+Run fprime-util impl
+
+Thruster.cpp
+
+
+
+ThrusterController.fpp
+
+replace
+
+    # @ Example telemetry counter
+    # telemetry ExampleCounter: U64
+
+with
+
+    @ Target power level percent
+    telemetry PowerLevelTargetPercent: U8
+
+    @ Actual power level percent
+    telemetry PowerLevelPercent: U8
+
+then run fprime-util impl
+

@@ -32,7 +32,7 @@ File ``Spacecraft/Components/Thruster/Thruster.cpp``
 
 .. code-block:: text
 
-      void Thruster ::
+  void Thruster ::
     SetPowerLevel_handler(
         const NATIVE_INT_TYPE portNum,
         U8 percent
