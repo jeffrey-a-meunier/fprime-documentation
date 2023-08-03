@@ -17,9 +17,9 @@ In the ThrusterController component:
 * Target power level percent ``U8 m_targetPercent``.
 
 In our simulated spacecraft, the two variables ``_powerLevelPercent`` in Thruster and ``m_currentPercent`` in ThrusterController will always be the same, modulo a bit of thread timing jitter.
-On a real spacecraft the Thruster ``_powerLevelPercent`` would contain the thrust value obtained from an actual computer that controls an actual thruster,
+On a real spacecraft the Thruster ``_powerLevelPercent`` would contain the power level value obtained from an actual computer that controls an actual thruster,
 so it would be crucial for the GDS to display this telemetry value at all times.
-The ground controllers need to know if the actual thrust level matches the intended thrust level.
+The ground controllers need to know if the actual power level matches the intended power level.
 This is the purpose of telemetry.
 
 There are two other values that we might be interested in, namely the ``ShowPowerLevelHiWarn`` and ``PowerLevelHiWarnPercent`` parameters,

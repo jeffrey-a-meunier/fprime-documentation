@@ -23,7 +23,7 @@ Changing the power level from OFF (0%) to MED (50%) would show a sequence of eve
 
 In order to do this, we'll use a *rate group*.
 By connecting the ThrusterController to a 1Hz (1 cycle per second) rate group, we can have the rate group call a function in our component once per second.
-This function will increment or decrement the thrust level by 10% until it reaches the target value.
+This function will increment or decrement the power level by 10% until it reaches the target value.
 
 .. toctree::
    :maxdepth: 1

@@ -54,7 +54,7 @@ Issue these commands to the component in this order:
 * Check Events: you should see two new **COMMAND** events, the first is **thruster.PowerLevelHiWarnPercent_PRM_SET dispatched to port 8** and the next one is similar but it says **completed**.
 * **thruster.SetPowerLevel, 95**
 * Check Events: there should be no power level warning since the warning hasn't been enabled.
-* **thruster.ShowPowerLevelHiWarn_PRM_SET, ON**
+* **thruster.ShowPowerLevelHiWarn_PRM_SET, ENABLED**
 * **thruster.SetPowerLevel, 95**
 * Check Events: there should be a **WARNING_HI** event that says **Thruster level 95% is above the warn limit 90%**.
 

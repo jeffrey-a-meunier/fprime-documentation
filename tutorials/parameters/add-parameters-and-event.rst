@@ -27,12 +27,6 @@ If you look at the file ``fprime/Fw/Types/Types.fpp`` you will see these two enu
 
 I think the words ``ENABLED`` and ``DISABLED`` best describe the state of the warning message, so I'll choose to use the ``Enabled`` enumerated type.
 
-.. important::
-
-    Note to self:
-    I used the ``On`` enumerated type before I knew the ``Enabled`` type existed.
-    Be sure I've chanted the type in the rest of this document, and in subsequent tutorials.
-
 Replace the example parameter
 -----------------------------
 Edit the ``Thruster.fpp`` file in the ``Components/Thruster`` directory.

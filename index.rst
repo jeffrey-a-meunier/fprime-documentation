@@ -25,9 +25,9 @@ The How-to documents are self-contained instructions on how to do a specific thi
    :maxdepth: 1
    :caption: How-to:
 
+   how-to/state-machines/index
    how-to/esp8266-32/index
    how-to/raspi/index
-   how-to/state-machines/index
 
 .. toctree::
    :maxdepth: 1
