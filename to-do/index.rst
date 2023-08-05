@@ -9,3 +9,4 @@ These are action items for the tutorial sequence.
 
    c-version-of-namemapper
    async-vs-sync
+   thruster-limit-event
