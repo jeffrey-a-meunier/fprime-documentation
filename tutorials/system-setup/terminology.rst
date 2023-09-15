@@ -1,7 +1,5 @@
 Terminology
 ===========
-F' uses specific terminology to refer to specific parts of the system.
-This section dives into the basic F' terminology used in this tutorial and an explanation of how the terminology is used.
 
 Project
 -------
@@ -24,30 +22,27 @@ This tutorial only uses built-in ports.
 
 Command
 -------
-Commands represent actions that a component can execute.
-Commands can be sent from the ground or via command sequences.
+A command is an action that a component can execute.
+A command can be sent from the ground, or executed in a group through a command sequence.
 Command behavior is defined in a command handler defined in the component's implementation.
 
 Event
 -----
-Events represent actions that a component has performed.
-Events are akin to software log messages.
-Events are received and displayed by the ground system.
+An event is a message sent from the component to the GDS (ground data system).
 
 Telemetry Channel
 -----------------
-Telemetry channels provide the active state of the component.
-Each channel represents a single item of state that will be sent to the GDS (ground data system).
+Telemetry channels provide information about the active state of the component.
+Each telemetry channel represents a single item of state that will be sent to the GDS.
 
 Deployment
 ----------
-Deployments are a single build of F' software.
-Each deployment results in one software executable that can be run along with other associated files.
-Each deployment has a topology that defines the system.
-
-In this tutorial you'll create the `SkeletonDeployment` deployment, run it, and test it through the F' GDS.
+A deployment is a single build of your F' application.
+Each deployment results in one executable file that can be run.
+Each deployment also has a topology that defines the connections between the components.
 
 Topology
 --------
-Topologies are networks of connected components that define the software.
+A topology is the set of components and connections between the comonents.
+The topology also defines the instances of each component.
 Multiple instances of a component may be added to the topology.
